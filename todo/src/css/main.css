@@ -12,11 +12,7 @@ html {
 }
 
 body {
-  background: linear-gradient(
-    190deg,
-    grey,
-    grey
-  );
+  background:url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -33,8 +29,9 @@ body {
 .App h1 {
   display: inline;
   text-align: center;
+  font-weight: bolder;
   margin-bottom: 2rem;
-  color: black;
+  color: rgb(88, 92, 69);
 
   /* text-shadow: 0 0 5px #433aa8, 3px -1px 5px #271c6c; */
 }
@@ -49,7 +46,7 @@ body {
   width: 40vw;
 
   max-height: 2.5rem;
-  background-color:white;
+  background-color:rgb(241, 236, 236);
   border: none;
   border-radius: 5px;
   padding: 0.5rem 1rem;
@@ -59,20 +56,20 @@ body {
 
 .todo-input:focus {
   outline: none;
-  border: 2px solid rgb(67, 58, 168);
+  border: 2px solid rgb(54, 53, 63);
 }
 
 .add-btn {
   margin-left: 1rem;
-  background-color: black;
-  color: #e1ebfd;
+  background-color: rgb(255, 255, 255);
+  color: hsl(0, 0%, 0%);
   border-radius: 50%;
-  border: 2px solid black;
+  border: 2px solid rgb(255, 255, 255);
   font-size: 1.5rem;
   width: 3.2rem;
   height: 3.2rem;
   cursor: pointer;
-  box-shadow: 2px 4px 10px #271c6c;
+  box-shadow: 2px 4px 10px #a0b5a2;
 
   display: flex;
   justify-content: center;
@@ -121,11 +118,8 @@ body {
   display: flex;
   flex-direction: column;
   background: white;
-  background: radial-gradient(
-    circle,
-   pink,
-   rgb(181, 220, 193)
-  );
+  background: pink;
+  
 
   margin: 0 1rem 1rem 0;
   height: 8rem;
